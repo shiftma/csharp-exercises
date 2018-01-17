@@ -1,21 +1,32 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26114.2
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayPrinter", "DayPrinter\DayPrinter.csproj", "{B3E76AAA-3BE8-49C7-A831-64EF68C6F28D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DayPrinter", "DayPrinter\DayPrinter.csproj", "{B3E76AAA-3BE8-49C7-A831-64EF68C6F28D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElseIf", "ElseIf\ElseIf.csproj", "{C7008ACC-EE4B-49CC-B7FB-5F9F95E257A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElseIf", "ElseIf\ElseIf.csproj", "{C7008ACC-EE4B-49CC-B7FB-5F9F95E257A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempConv", "TempConv\TempConv.csproj", "{6D18F93D-E26F-4FF4-ABF2-1450FD9FB19D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempConv", "TempConv\TempConv.csproj", "{6D18F93D-E26F-4FF4-ABF2-1450FD9FB19D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMethods", "HelloMethods\HelloMethods.csproj", "{9B69E0D2-FBD5-4FB4-9D40-768AE4F57300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloMethods", "HelloMethods\HelloMethods.csproj", "{9B69E0D2-FBD5-4FB4-9D40-768AE4F57300}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradebook", "Gradebook\Gradebook.csproj", "{9E08496B-2501-4CBF-844F-8FD7BA97F4E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gradebook", "Gradebook\Gradebook.csproj", "{9E08496B-2501-4CBF-844F-8FD7BA97F4E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradebookDict", "GradebookDict\GradebookDict.csproj", "{EFCB1B91-2E92-478F-BFF7-013FF6911DCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookDict", "GradebookDict\GradebookDict.csproj", "{EFCB1B91-2E92-478F-BFF7-013FF6911DCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradebookArray", "GradebookArray\GradebookArray.csproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GradebookArray", "GradebookArray\GradebookArray.csproj", "{89051A0E-8D18-48C3-B4E6-D05F62D252CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{5EB08F6D-F033-46EE-8364-68290EBBADB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleArea", "RectangleArea\RectangleArea.csproj", "{51E459EC-968F-493F-A572-5C559CACD4EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MilesPerGallon", "MilesPerGallon\MilesPerGallon.csproj", "{35318030-7059-4754-A285-5287B4BF35F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AliceString", "AliceString\AliceString.csproj", "{74CC9487-4590-44BD-B5D5-273D30867EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{1D9F56E5-F37A-4E4E-BB67-A70D7CEF06D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumber", "EvenNumber\EvenNumber.csproj", "{B4EEE4D5-D55A-4031-B770-3FA75E5F5A8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,8 +62,35 @@ Global
 		{89051A0E-8D18-48C3-B4E6-D05F62D252CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89051A0E-8D18-48C3-B4E6-D05F62D252CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89051A0E-8D18-48C3-B4E6-D05F62D252CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EB08F6D-F033-46EE-8364-68290EBBADB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB08F6D-F033-46EE-8364-68290EBBADB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB08F6D-F033-46EE-8364-68290EBBADB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB08F6D-F033-46EE-8364-68290EBBADB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E459EC-968F-493F-A572-5C559CACD4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E459EC-968F-493F-A572-5C559CACD4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E459EC-968F-493F-A572-5C559CACD4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E459EC-968F-493F-A572-5C559CACD4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35318030-7059-4754-A285-5287B4BF35F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35318030-7059-4754-A285-5287B4BF35F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35318030-7059-4754-A285-5287B4BF35F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35318030-7059-4754-A285-5287B4BF35F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CC9487-4590-44BD-B5D5-273D30867EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CC9487-4590-44BD-B5D5-273D30867EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CC9487-4590-44BD-B5D5-273D30867EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CC9487-4590-44BD-B5D5-273D30867EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D9F56E5-F37A-4E4E-BB67-A70D7CEF06D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D9F56E5-F37A-4E4E-BB67-A70D7CEF06D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D9F56E5-F37A-4E4E-BB67-A70D7CEF06D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D9F56E5-F37A-4E4E-BB67-A70D7CEF06D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EEE4D5-D55A-4031-B770-3FA75E5F5A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EEE4D5-D55A-4031-B770-3FA75E5F5A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EEE4D5-D55A-4031-B770-3FA75E5F5A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EEE4D5-D55A-4031-B770-3FA75E5F5A8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B6B47CD-C6E0-47B0-BE25-3B0A95B4041F}
 	EndGlobalSection
 EndGlobal
