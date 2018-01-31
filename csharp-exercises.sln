@@ -38,6 +38,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentDict", "StudentDict\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studio_CountingChar", "Studio_CountingChar\Studio_CountingChar.csproj", "{6B77B098-13D0-4A68-A4C9-955E359048B9}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School", "School\School.csproj", "{AF942C6A-0898-4179-A34C-5C3E62254AB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restaurant", "Restaurant\Restaurant.csproj", "{BF4CB781-6CAE-4AC6-B876-6AA01D5F449D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -116,6 +120,14 @@ Global
 		{6B77B098-13D0-4A68-A4C9-955E359048B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B77B098-13D0-4A68-A4C9-955E359048B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B77B098-13D0-4A68-A4C9-955E359048B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF942C6A-0898-4179-A34C-5C3E62254AB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF942C6A-0898-4179-A34C-5C3E62254AB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF942C6A-0898-4179-A34C-5C3E62254AB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF942C6A-0898-4179-A34C-5C3E62254AB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4CB781-6CAE-4AC6-B876-6AA01D5F449D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4CB781-6CAE-4AC6-B876-6AA01D5F449D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4CB781-6CAE-4AC6-B876-6AA01D5F449D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4CB781-6CAE-4AC6-B876-6AA01D5F449D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
