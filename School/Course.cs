@@ -25,7 +25,7 @@ namespace School
             }
             else
             {
-                Console.WriteLine("Student already added to the course");
+                Console.WriteLine("Student " + student.Name + " is already added to the course");
                 Console.ReadLine();
             }
         }

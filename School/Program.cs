@@ -19,6 +19,7 @@ namespace School
             csharp.AddStudent(josh);
             python.AddStudent(matt);
             python.AddStudent(zak);
+            python.AddStudent(zak);
 
             josh.AddGrade(4, 4);
             josh.AddGrade(3, 4);
