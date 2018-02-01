@@ -7,7 +7,7 @@ namespace School
     class Course
     {
         private string name;
-        private Dictionary<Student, int> students = new Dictionary<Student, int>();
+        private List<Student> students = new List<Student>();
         public int Credits { get; set; }
         public string Name { get => name; set => name = value; }
 
@@ -17,32 +17,36 @@ namespace School
             Name = name;
         }
 
-        public void CreateStudent(Student key, int value)
+        public void AddStudent(Student student)
         {
-            if(students.ContainsKey(key))
+            if (!students.Contains(student))
             {
-                students[key] = value;
+                students.Add(student);
             }
             else
             {
-                students.Add(key, value);
+                Console.WriteLine("Student already added to the course");
+                Console.ReadLine();
             }
         }
 
-        public void AddStudentToTheCourse(Student student)
+
+        StringBuilder roster = new StringBuilder();
+
+        public void Builder()
         {
-            CreateStudent(student, 0);
+            Console.WriteLine("\nClass roster:");
+
+            for (int i = 0; i < students.Count; i++)
+            {
+                roster.Append("\nStudent:" + " " + students[i] + "\n*******");
+            }
         }
 
         public override string ToString()
         {
-            StringBuilder stringBuilder = new StringBuilder();
-            foreach (KeyValuePair<Student, int> student in students)
-            {
-                stringBuilder.Append(string.Format("{0} - {1}\n", student.Key.Name, student.Value));
-            }
-
-            return stringBuilder.ToString();
+            Builder();
+            return roster.ToString();
         }
     }
 }

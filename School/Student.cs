@@ -82,7 +82,7 @@ namespace School
             // TODO: write your implementation of Equals() here
             Student studentObj = obj as Student;
             return (studentObj.StudentId == StudentId);
-            
+
         }
 
         // override object.GetHashCode

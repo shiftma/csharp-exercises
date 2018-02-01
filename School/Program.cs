@@ -7,27 +7,34 @@ namespace School
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome back to School!");
+            Console.WriteLine();
 
             Student josh = new Student("Josh");
             Student matt = new Student("Matt");
-
-            josh.AddGrade(3, 4);
-            matt.AddGrade(3, 3);
-            matt.AddGrade(4, 3);
+            Student zak = new Student("Zak");
 
             Course csharp = new Course(4, "csharp");
             Course python = new Course(3, "python");
 
-            csharp.AddStudentToTheCourse(josh);
-            python.AddStudentToTheCourse(matt);
-            csharp.CreateStudent(josh, 75);
+            csharp.AddStudent(josh);
+            python.AddStudent(matt);
+            python.AddStudent(zak);
+
+            josh.AddGrade(4, 4);
+            josh.AddGrade(3, 4);
+            matt.AddGrade(3, 3);
+            zak.AddGrade(3, 4);
 
             Console.WriteLine(josh);
             Console.WriteLine();
 
-            Console.WriteLine(csharp.Name);
-            Console.WriteLine(csharp.ToString());
-           
+            Console.WriteLine(matt);
+            Console.WriteLine();
+
+            Console.WriteLine(zak);
+            Console.WriteLine();
+
+            Console.WriteLine(python.ToString());
 
             Console.ReadLine();
 
