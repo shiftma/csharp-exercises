@@ -36,6 +36,7 @@ namespace School
             Console.WriteLine();
 
             Console.WriteLine(python.ToString());
+            Console.WriteLine(csharp.ToString());
 
             Console.ReadLine();
 
